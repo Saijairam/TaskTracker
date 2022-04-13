@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.title{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+
+.task{
+    cursor:pointer;
+}
+
+.task.remainder{
+    border-left : 5px solid green;
+}
+.form-control{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width:100%
+}
